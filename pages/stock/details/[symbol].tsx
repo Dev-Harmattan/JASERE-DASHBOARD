@@ -30,10 +30,8 @@ const Details = () => {
       setStockName(symbol);
 
       if (currentStock) {
-        const totalValue = currentStock?.reduce((acc, data) => {
-          return acc + data.price;
-        }, 0);
-        setStockValue(totalValue);
+        const latestValue = currentStock[currentStock.length - 1].price;
+        setStockValue(latestValue);
       }
     }
   }, [symbol]);

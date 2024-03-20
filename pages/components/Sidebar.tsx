@@ -18,11 +18,11 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
             </div>
           </Link>
           <span className="border-b-[1px] border-gray-200 w-full p-2"></span>
-          <Link href="/stock/details/1">
+          {/* <Link href="/stock/details/1">
             <div className="bg-gray-100 hover:bg-gray-200 cursor-pointer my-4 p-3 rounded-lg inline-block">
               <AiOutlineStock size={20} />
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <main className="ml-20 w-full">{children}</main>
