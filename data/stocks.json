@@ -1,0 +1,13 @@
+[
+  { "symbol": "AAPL", "price": 150.45, "date": 17 },
+  { "symbol": "GOOGL", "price": 2750.3, "date": 42 },
+  { "symbol": "MSFT", "price": 297.0, "date": 33 },
+  { "symbol": "AMZN", "price": 3470.0, "date": 25 },
+  { "symbol": "TSLA", "price": 702.2, "date": 5 },
+  { "symbol": "NFLX", "price": 551.75, "date": 9 },
+  { "symbol": "IBM", "price": 140.0, "date": 18 },
+  { "symbol": "FB", "price": 320.45, "date": 50 },
+  { "symbol": "INTC", "price": 52.45, "date": 13 },
+  { "symbol": "PYPL", "price": 235.0, "date": 38 },
+  { "symbol": "CRM", "price": 225.45, "date": 58 }
+]
